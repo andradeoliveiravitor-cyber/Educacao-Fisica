@@ -3,7 +3,7 @@ body{
     background:rgb(18, 0, 43);
     margin:0px;
     font-family: "Exo 2", sans-serif;
-    
+    margin-bottom: 100px;
 }
 
 header{
@@ -43,4 +43,17 @@ img{
 .categoria{
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img{
+    opacity: 0,5;
+    height: 200px;
+}
+.categoria-videos img:hover{
+    opacity: 1,0;
+    border: lpx solid red;
+}
+.categoria h2{
+    color:rgb(4, 48, 167)
 }
